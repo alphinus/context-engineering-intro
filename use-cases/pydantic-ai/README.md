@@ -158,7 +158,14 @@ An agent with tool integration capabilities:
 - Data analysis tools with numerical statistics
 - Clear documentation on when to use structured vs string output
 
-### 5. Testing Examples (`examples/testing_examples/`)
+### 5. Gmail Summarizer Agent (`examples/gmail_summarizer_agent/`)
+Turns Gmail unread messages into summarized drafts ready for review:
+- Gmail OAuth helper that lists unread threads and saves reply drafts
+- Result type `BatchDraftSummary` keeps tooling + operator output aligned
+- German-first system prompt tailored for `alphinus@gmai.com` but configurable via settings
+- README explains OAuth setup, `.env` values, and CLI usage
+
+### 6. Testing Examples (`examples/testing_examples/`)
 Comprehensive testing patterns for Pydantic AI agents:
 - TestModel for rapid development validation
 - FunctionModel for custom behavior testing

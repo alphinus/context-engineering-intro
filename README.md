@@ -29,6 +29,8 @@ cd Context-Engineering-Intro
 /execute-prp PRPs/your-feature-name.md
 ```
 
+For repository-wide contributor practices, see [AGENTS.md](AGENTS.md).
+
 ## 📚 Table of Contents
 
 - [What is Context Engineering?](#what-is-context-engineering)
